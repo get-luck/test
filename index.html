@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css" />
+ </head>
+ <body>
+  <!--普通的      pc端网页
+   大部分的网页都是常规的
+   主体部分的内容始终是居中的       1200px   
+   24寸  
+   21寸>       1920*1080      1920-1200 / 2   = 360px两边留白
+   
+   11-15.6     1366*768      1366-1200 / 2   = 83px两边留白
+   
+   当屏幕被用户调整的时候    小于1200px的时候，会出现横向的滚动条。纵向是不需要关注的
+   
+   
+   窗口》1200px   肯定不会出现横向的滚动条
+  -->
+  <!--响应式的      根据pc端，pad端，phone端的大小进行自动的调整，一套代码兼容多个设备终端      肯定不会出现横向的滚动条
+   可以根据屏幕的分辨率进行自动的调整，并不会出现错版的情况
+  -->  
+  
+  
+  <div class="wrapper">
+   <!--第一行的内容-->
+   <div class="row_one">
+    <img src="img/logo_new_v1.jpg" alt="" />
+    <div class="rightimg1 bg_img"></div>
+    <div class="rightimg2 bg_img"></div>
+    <div class="rightimg3 bg_img"></div>
+   </div>
+   <!--第二行的内容-->
+   <div class="row_two">
+    <div class="two_left"></div>
+    <div class="tow_right">
+     <form action="">
+      <div class="form1">
+       <div>用户注册</div>
+       <span>已有账号<a href="">在此登录</a></span>
+      </div>
+      <div class="form2">
+       <input type="text" placeholder="手机号" />
+      </div>
+      <div class="form3">
+       <input type="text" placeholder="短信验证码" />
+       <a href="">获取短信校验</a>
+      </div>
+      <div class="form4">
+       <input type="text" placeholder="密码"/>
+      </div>
+      <div class="form5">
+       <input type="text" placeholder="重复密码"/>
+      </div>
+      <div class="form6">
+       <button>同意协议并注册</button>
+      </div>
+      <div class="form7">
+       <a href="">《聚美优品用户协议》</a>
+      </div>
+     </form>
+    </div>
+    
+   </div>
+   <!--第三行的内容-->
+   <p class="row_three">
+     Copyright &copy; 2010-2015 北京创锐文化传媒有限公司 Jumei.com 保留一切权利。客服热线：400-123-8888 <br />
+     京公网安备 11010102001226 号 | 京ICP证111033号 | 食品流通许可证 SP1101051110165515 (1-1) | 营业执照
+   </p>
+   <!--第四行的内容-->
+   <div class="row_four">
+    <div class="left_img1"></div>
+    <div class="left_img2"></div>
+    <div class="left_img3"></div>
+    <div class="left_img4"></div>
+   </div>
+  </div>
+ </body>
+</html>
+
+ 
